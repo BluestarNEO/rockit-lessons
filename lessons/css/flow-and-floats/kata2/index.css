@@ -1,0 +1,22 @@
+::after{
+    content:'';
+    display: block;
+    clear: left;
+}
+
+label, input {
+    display: block;
+    margin: 5px;
+}
+
+.labels {
+    white-space: nowrap;
+    background-color: cyan;
+    float: left;
+    width: 100px;
+}
+
+.inputs {
+    background-color: orange;
+    margin-left: 105px;
+}

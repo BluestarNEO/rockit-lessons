@@ -1,0 +1,13 @@
+.tank {
+    background-color: gray;
+    border: 5px dashed black;
+    width: 100px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+
+.mine {
+    background-color: red;
+    border: 5px solid black;
+}

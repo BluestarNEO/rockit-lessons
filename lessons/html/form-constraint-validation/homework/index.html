@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <form action="pizzaKevin.php" method="GET">
+        <div class="option-divide" name="toppings" id="toppings">
+            Toppings:
+            <label><input type="checkbox" value="pepperoni">Pepperoni</label>
+            <label><input type="checkbox">Sausage</label>
+            <label><input type="checkbox">Green Peppers</label>
+            <label><input type="checkbox">Onions</label>
+        </div>
+        
+        <div class="option-divide">
+            <input list="numbers">
+            <datalist id="numbers">
+                <option value="1">Mushrooms</option>
+                <option value="2">Anchovies</option>
+                <option value="3">Pineapple</option>
+                <option value="4">Dirt</option>
+                <option value="5">Spinach</option>
+            </datalist>
+        </div>
+
+        <div class="option-divide">
+            Sauce:
+            <label><input type="radio" name="white-sauce" id="white-sauce">White Sauce</label>
+            <label><input type="radio" name="red-sauce" id="red-sauce">Red Sauce</label>
+            <label><input type="radio" name="no-sauce" id="no-sauce">No Sauce</label>
+        </div>
+
+        <div class="option-divide">
+            Size:
+            <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </div>
+
+        <div class="option-divide">
+            Phone Number:
+            <input type="text" pattern="^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$" id="telephone">
+        </div>
+
+        <div class="option-divide">
+            Street Address:
+            <input type="text" id="address">
+            City:
+            <input type="text" id="city">
+            State:
+            <select name="states" id="states">
+                <option value=""></option>
+                <option value="fl">Florida</option>
+                <option value="az">Arizona</option>
+                <option value="ga">Georgia</option>
+                <option value="ca">California</option>
+                <option value="nv">Nevada</option>
+            </select>
+        </div>
+
+        <div class="option-divide">
+            Email:
+            <input type="email">
+        </div>
+
+        <div class="option-divide">
+            Date:
+            <input type="date">
+        </div>
+
+        <div class="option-divide">
+            How Many:
+            <input type="number">
+        </div>
+        
+        <div class="option-divide">
+            How Deep?        
+            <div>Thin Crust<input type="range" min="1" max="3">Deep Dish</div>
+        </div>
+
+        <div class="option-divide">
+            <button type="submit">ORDER YOUR DAMN PIZZA</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>

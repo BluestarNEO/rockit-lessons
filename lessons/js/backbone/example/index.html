@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Backbone Example</title>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="bower_components/underscore/underscore-min.js"></script>
+  <script src="bower_components/backbone/backbone-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.js"></script>
+  <script src="index.js"></script>
+
+  <script id="user-list" type="text/x-handlebars-template">
+    <div>
+      {{#each this}}
+      <h3>{{name}}</h3>
+      <p>My hobby is {{hobby}}</p>
+      <div>
+        <a href="#user/{{id}}/delete/">Destroy!</a>
+      </div>
+      {{/each}}
+    </div>
+  </script>
+
+  <script id="edit-user" type="text/x-handlebars-template">
+    <form>
+      Name: <input type="textarea" id="name" value="{{name}}"></input>
+      Hobby: <input type="textarea" id="hobby" value="{{hobby}}"></input>
+      <button>Save</button>
+    </form>
+  </script>
+</head>
+<body>
+
+  <header>
+    <a href="#/">Home</a>
+    <a href="#/users/">Users</a>
+    <a href="#/accounts/">Accounts</a>
+    <a href="#/profile/">Profile</a>
+  </header>
+
+  <main></main>
+  
+  <script src="models/user.js"></script>
+  <script src="collections/user.js"></script>
+  <script src="views/list-users.js"></script>
+  <script src="views/error.js"></script>
+  <script src="views/edit-user.js"></script>
+</body>
+</html>

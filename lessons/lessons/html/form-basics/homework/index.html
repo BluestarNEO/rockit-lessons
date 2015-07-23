@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Basics Exercise</title>
+</head>
+<body>
+
+    <form action="new-user.php" method="POST">
+        
+        Gender: 
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        
+        <br>
+        
+        Hair Color:
+        <select name="hair-color" id="hair-color">
+            <option value="">Blonde</option>
+            <option value="">Red</option>
+            <option value="">Black</option>
+            <option value="">Brown</option>
+        </select>
+        
+        <br>
+
+        Favorite Food:
+        <label><input type="checkbox"> Mac and Cheese</label>
+        <label><input type="checkbox"> Pizza</label>
+        <label><input type="checkbox"> Brussel Sprouts</label>
+        <label><input type="checkbox"> Steak</label>
+        <label><input type="checkbox"> Spaghetti</label>
+        
+        <br>
+
+        First Name: <input type="text" placeholder="Enter first name">
+        Last Name: <input type="text" placeholder="Enter last name">
+        Shoe Size: <input type="text" placeholder="Enter shoe size">
+        
+        <br>
+
+        How Awesome? 
+            <label>1<input type="radio" value="1" name="awesome"></label>
+            <label>2<input type="radio" value="2" name="awesome"></label>
+            <label>3<input type="radio" value="3" name="awesome"></label>
+            <label>4<input type="radio" value="4" name="awesome"></label>
+            <label>5<input type="radio" value="5" name="awesome"></label>
+            <label>6<input type="radio" value="6" name="awesome"></label>
+            <label>7<input type="radio" value="7" name="awesome"></label>
+            <label>8<input type="radio" value="8" name="awesome"></label>
+            <label>9<input type="radio" value="9" name="awesome"></label>
+            <label>10<input type="radio" value="10" name="awesome"></label>
+        
+        <br><br>
+
+        <button type="Reset">RESET</button>
+        <button type="Submit">SUBMIT</button>
+        
+        <br><br>
+
+        Password: <input type="password" placeholder="Enter your password">
+
+    </form>
+    
+</body>
+</html>

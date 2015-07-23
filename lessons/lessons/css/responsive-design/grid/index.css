@@ -1,0 +1,12 @@
+h1 {
+    background-color: lightblue;
+}
+
+div.col-lg-6 {
+    /*transition: all 3s;*/
+}
+
+button:hover {
+    transition: all 7s;
+    transform: translateX(2600px) translateY(-850px) rotate(680deg);
+}

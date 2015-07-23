@@ -1,0 +1,91 @@
+.main-container {
+    background-color: black;
+}
+
+header {
+    background-color: red;
+}
+
+header > a {
+    background-color: yellow;
+}
+
+header nav {
+    background-color: lightblue;
+}
+
+header nav a:first-child {
+    background-color: brown;
+}
+
+header nav a:nth-child(2) {
+    background-color: crimson;
+}
+
+header nav a:last-child {
+    background-color: darkgoldenrod;
+}
+
+div > main {
+    background-color: darkgreen;
+}
+
+main > aside {
+    background-color: darkslategray;
+}
+
+aside nav {
+    background-color: darkturquoise;
+}
+
+aside nav a:first-child {
+    background-color: deeppink;
+}
+
+aside nav a:nth-child(2) {
+    background-color: dodgerblue;
+}
+
+aside nav a:last-child {
+    background-color: firebrick;
+}
+
+main article:nth-child(2) {
+    background-color: forestgreen;
+}
+
+main article:nth-child(2) h1 {
+    background-color: gold;
+}
+
+main article:nth-child(2) p {
+    background-color: indianred;
+}
+
+main article:nth-child(2) a {
+    background-color: greenyellow;
+}
+
+main article:last-child {
+    background-color: olive;
+}
+
+main article:last-child h1 {
+    background-color: lightslategray;
+}
+
+main article:last-child p {
+    background-color: limegreen;
+}
+
+main article:last-child a {
+    background-color: maroon;
+}
+
+footer {
+    background-color: palegreen;
+}
+
+footer p {
+    background-color: midnightblue;
+}

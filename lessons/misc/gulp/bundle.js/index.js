@@ -1,0 +1,1 @@
+function add(n,o){return n+o}var villains=[{name:"Joker"}],stuff={hello:234},func=function(){console.log("beep boop")};

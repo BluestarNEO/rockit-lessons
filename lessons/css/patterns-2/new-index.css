@@ -1,0 +1,29 @@
+.panel > div {
+    width: 960px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: indianred;
+}
+.header > div {
+    background-color: cornflowerblue;
+}
+
+.contact {
+    background-color: lightslategray;
+}
+
+.contact > div {
+    background-color: lightgoldenrodyellow;
+}
+
+/*nav {
+    background-color: black;
+}
+
+nav a  {
+    background-color: green;
+}
+*/

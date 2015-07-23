@@ -1,0 +1,28 @@
+
+/* way 1 */
+.cf::after {            
+    content: '';
+    display: block;
+    clear: left;
+}
+
+/* overflow is way 2 */
+.container {
+    background-color: lightblue;
+    padding: 5px;
+    width: 500px;
+    /*overflow: hidden;*/
+    height: 103px;
+}
+
+.graphic {
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.content {
+    background-color: limegreen;
+    margin-left: 105px;
+}

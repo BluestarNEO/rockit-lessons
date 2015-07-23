@@ -1,0 +1,125 @@
+
+
+
+// .cf:before,
+// .cf:after {
+//     contnent: " ";
+//     display: table;
+// }
+
+// .cf:after {
+//     clear: both;
+// }
+
+// %content-box {
+//     background-color: #fff;
+//     padding: 10px;
+//     box-shadow: 0 0 10px -4px #fff;
+// }
+
+// .breakout {
+//     @extend %content-box;
+//     overflow: hidden;    // separated out
+// }
+
+// main {
+//     @extend %content-box;
+//     padding: 20px        // separated out
+// }
+
+// @mixin radius($radius) {
+//     border-radius: $radius;
+//     -webkit-border-radius: $radius;
+
+// }
+
+// div {
+//     @include radius(10px);
+// }
+
+// @mixin clearfix {
+//     &::before,
+//     &::after {
+//         content: " ";
+//         display: table;
+//     }
+
+//     &::after {
+//         clear: both;
+//     }
+// }
+
+// @mixin media-object($width) {
+//     overflow: hidden;
+//     &:first-child {
+//         float: left;
+//         width: $width;
+//     }
+//     &:last-child {
+//         margin-left: $width;
+//     }
+// }
+
+// div.one {
+//     @extend %clearfix;
+// }
+// div.two {
+//     @extend %clearfix;
+// }
+
+// .user {
+//     @include media-object(100px);
+//     color: red;
+//     border-radius: 10px;
+// }
+
+
+// button {
+//     border: none;
+//     border-radius: 10px;
+//     background-color: green
+
+
+
+// }
+
+// a.btn {
+//     @extend button
+// }
+
+// @mixin foo($color) {
+//     color: $color;
+//     p {
+//         background-color: $color;
+//     }
+// }
+
+// @mixin respond(min-width) {
+//     @media screen and (min-width; $min-width) {
+//         $content;
+//     }
+// }
+
+// div {
+//     @include foo(red) {
+//         overflow: hidden;
+//     }
+// }
+
+
+// div {
+//     background-color: #FFF;
+//     @media screen and (min-width: 400px) {
+//         width: 960px;
+//         margin: 0 auto;
+//     }
+// }
+
+div {
+    background-color: #eee;
+
+    @include respond() {
+        width: 960px;
+        margin: 0 auto;
+    }
+}

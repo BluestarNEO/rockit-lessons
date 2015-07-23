@@ -1,0 +1,31 @@
+
+Note: If tiles are of a different size, you can't (shouldn't) use floats
+
+.panel {
+    background-color: blue;
+}
+
+.panel > div {
+    width: 960px;
+    background-color: yellow;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.hero {
+    background-color: blue;
+}
+
+.hero > div {
+    background-color: yellow;
+}
+
+.services {
+    background-color: orange;
+}
+
+.services > div {
+    background-color: magenta;
+}
+
+

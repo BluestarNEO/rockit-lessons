@@ -1,0 +1,67 @@
+@imports "vars"
+
+$brand-color: purple; <-- variables
+
+
+.something {
+    foo {
+        bar {
+            color: red;
+        }
+    }
+}
+
+ // Use & to bring attributes together like .class1.class2
+
+.somthing {
+    color: red;
+    overflow: hidden;
+
+    div a {
+        color: blue
+    }
+}
+
+header {
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+
+    nav {s
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        ul {
+            border-bottom: 1px solid green;
+
+            li {
+                display: inline-block;
+
+                a {
+
+                }
+            }
+        }
+    }
+}
+
+^^^^ terrible
+
+header {
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+
+    nav {s
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    nav a {
+
+    }
+}
+
+^^^^ better

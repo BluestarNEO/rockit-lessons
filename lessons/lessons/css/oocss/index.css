@@ -1,0 +1,23 @@
+.media-object {
+    /*overflow: hidden;*/
+    display: flex;
+}
+
+.media-object > :first-child {
+    /*float: left;*/
+    width: 25%;
+
+}
+
+.media-object > :last-child {
+    /*overflow: hidden;*/
+    flex: 1;
+}
+
+.media-object.puppy {
+
+}
+
+.puppy > .graphic {
+
+}

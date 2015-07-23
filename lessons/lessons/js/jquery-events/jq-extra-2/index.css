@@ -1,0 +1,13 @@
+div {
+    background-color: #aaa;
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+
+.highlight {
+    background-color: lightblue;
+    padding: 20px;
+}

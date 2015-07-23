@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Templating with Handlebars</title>
+
+    <script type="text/x-handlebars-template" id="user-template">
+        <div>
+            <div>{{firstName}}</div>
+            <div>{{lastName}}</div>
+            <div>Favorite Foods
+                <ul>
+                    {{#each food}}
+                    <li>{{this}}</li>            
+                    {{/each}}
+                </ul>
+            </div>
+        </div>        
+    </script>
+        
+    </script>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="handlebars-v3.0.3.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <form action="">
+        <input type="text" name="firstName">
+        <input type="text" name="lastName">
+        <br>
+        <input type="checkbox" id="pizza" name="food" value="pizza">
+        <label for="pizza">Pizza</label>
+        <input id="beer" type="checkbox" name="food" value="beer">
+        <label for="beer">Beer</label>
+        <input id="hamburger" type="checkbox" name="food" value="pizza">
+        <label for="hamburger">Hamburger</label>
+        <button>Add User</button>
+    </form>
+    
+</body>
+</html>

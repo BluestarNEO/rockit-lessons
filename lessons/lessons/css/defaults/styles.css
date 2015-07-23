@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+p, h1, ul {
+    background-color: red;
+}
+
+div, header, footer, nav, aside {
+    background-color: blue;
+}
+
+span, b, em, a {
+    background-color: magenta;
+}

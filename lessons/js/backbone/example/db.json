@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Brad",
+      "hobby": "CSS"
+    },
+    {
+      "id": 2,
+      "name": "Kevin",
+      "hobby": "JavaScript"
+    },
+    {
+      "name": "Brad2",
+      "hobby": "CSS",
+      "id": 3
+    }
+  ]
+}

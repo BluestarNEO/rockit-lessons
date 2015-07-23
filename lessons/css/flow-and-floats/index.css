@@ -1,0 +1,26 @@
+.container {
+    background-color: red;
+    padding: 4px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: left;
+}
+
+.graphic {
+    background-color: blue;
+    
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    background-color: green;
+
+    margin-left: 105px;
+}
